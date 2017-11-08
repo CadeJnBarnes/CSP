@@ -26,12 +26,12 @@ public class AlgorithmsViewController: UIViewController
         
         algorithmSteps = [stepOne, stepTwo, stepThree, stepFour, stepFive]
         
-        let atribuesDictionary = [NSAttributedStringey.font : algorithmText.font]
-        let fullAttributeString = NSMutableAttributdString(string: algorithm, attributes: attributesDictionary)
+        let atribuesDictionary = [NSAttributedString.font : algorithmText.font]
+        let fullAttributeString = NSMutableAttributedString(string: algorithm, attributes: attributesDictionary)
         
         for step in algorithmSteps
         {
-            let bullet :String = "<3"
+            let bullet :String = "*"
             let formattedStep :String = "\n\(bullet) \(step)"
             let attributedStringStep : NSMutableAttributedString = NSMutableAttributedString(string: formattedStep)
             let paragraphStyle = createParagraphStyle()
@@ -41,6 +41,17 @@ public class AlgorithmsViewController: UIViewController
             fullAttributedString.append(attributedStringStep)
         }
         algorithmText.attributedText = fullAttributedString
+    }
+    
+    private func createParagraphStyle() -> NSParagraphStyle
+    {
+        let paragraphStyle: NSMutableParagraphStyle = NSMutableParagraphStyle()
+        paragraphStyle.allignment = .left
+        paragraphStyle.defaultTabInterval = 15
+        paragraphStyle.firstLineHeadIndent = 20
+        paragraphStyle.headIndent = 35
+        
+        return paragraphStyle
     }
     
     override public func viewDidLoad()

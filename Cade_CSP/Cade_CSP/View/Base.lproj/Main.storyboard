@@ -16,13 +16,23 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lCk-z8-w06">
+                                <rect key="frame" x="164" y="20" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="Ra3-sA-FKD" kind="show" id="SRZ-FI-b53"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="118" y="117"/>
+            <point key="canvasLocation" x="117.59999999999999" y="116.49175412293854"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="lpr-1u-Kcy">
@@ -84,10 +94,10 @@
             </objects>
             <point key="canvasLocation" x="2142" y="785"/>
         </scene>
-        <!--View Controller-->
+        <!--Algorithms View Controller-->
         <scene sceneID="0b9-nR-JOL">
             <objects>
-                <viewController id="Ra3-sA-FKD" sceneMemberID="viewController">
+                <viewController id="Ra3-sA-FKD" customClass="AlgorithmsViewController" customModule="Cade_CSP" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2ee-Uc-Prj">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -114,6 +124,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="Prg-F3-TU7"/>
                     </view>
+                    <connections>
+                        <outlet property="agorithmText" destination="clv-Ze-jJB" id="vuQ-Ed-Z2G"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gKn-qp-GtP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

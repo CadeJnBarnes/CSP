@@ -11,7 +11,7 @@ import UIKit
 public class AbstractionViewController: UIPageViewController, UIPageViewControllerDataSource
 {
     //MARK: Array of subviews
-    private (set) lazy var orderedAbstrationViews : [UIViewController] =
+    private (set) lazy var orderedAbstractionViews : [UIViewController] =
     {
         return [
             self.newAbstractionViewController(abstractionLevel: "Block"),
@@ -30,6 +30,43 @@ public class AbstractionViewController: UIPageViewController, UIPageViewControll
     
     
     override public func viewDidLoad()
+    {
+        super.viewDidLoad()
+        dataSource = self
+        
+        if let firstViewController = orderedAbstractionViews.first
+        {
+            setViewControllers([firstViewController],
+                               direction: .forward,
+                               animated: true,
+                               completion: nil)
+        }
+    }
     
     public func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController?
+    {
+        guard let viewControllerIndex = orderedAbstractionViews.index(of: viewController)
+        else
+        {
+            return nil
+        }
+        
+        let previousIndex = viewControllerIndex - 1
+        
+        guard previousIndex >= 0
+        else
+        {
+            return orderedAbstractionViews.last
+        }
+        
+        guard orderedAbstractionView.count > previousIndex
+        else
+        {
+            return nil
+        }
+        
+        return orderedAbstractionViews[previousIndex]
+    }
+    
+    public func pageViewController(_ pageViewController: UIPageViewController, viewControllerAfter viewController: UIViewController) -> UIController?
 }

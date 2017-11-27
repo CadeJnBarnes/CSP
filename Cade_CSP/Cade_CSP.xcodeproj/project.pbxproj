@@ -19,6 +19,9 @@
 		BE7B1BE51FA223F300B38F74 /* ProgrammingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7B1BE41FA223F300B38F74 /* ProgrammingController.swift */; };
 		BE7B1BE71FA2240300B38F74 /* InternetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7B1BE61FA2240300B38F74 /* InternetController.swift */; };
 		BE7B1BE91FA2241300B38F74 /* GlobalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7B1BE81FA2241300B38F74 /* GlobalController.swift */; };
+		BEAA4A7A1FC32A4B002A183D /* ColorTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAA4A791FC32A4B002A183D /* ColorTools.swift */; };
+		BEAA4A7C1FC32A63002A183D /* DebugDuck.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAA4A7B1FC32A63002A183D /* DebugDuck.swift */; };
+		BEAA4A7E1FC32AC2002A183D /* Cleanable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAA4A7D1FC32AC2002A183D /* Cleanable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +39,9 @@
 		BE7B1BE41FA223F300B38F74 /* ProgrammingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammingController.swift; sourceTree = "<group>"; };
 		BE7B1BE61FA2240300B38F74 /* InternetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetController.swift; sourceTree = "<group>"; };
 		BE7B1BE81FA2241300B38F74 /* GlobalController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalController.swift; sourceTree = "<group>"; };
+		BEAA4A791FC32A4B002A183D /* ColorTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTools.swift; sourceTree = "<group>"; };
+		BEAA4A7B1FC32A63002A183D /* DebugDuck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugDuck.swift; sourceTree = "<group>"; };
+		BEAA4A7D1FC32AC2002A183D /* Cleanable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cleanable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +74,7 @@
 		BE7B1BC01FA21FAF00B38F74 /* Cade_CSP */ = {
 			isa = PBXGroup;
 			children = (
+				BEAA4A761FC329A3002A183D /* Model */,
 				BE7B1BD51FA220F900B38F74 /* Controller */,
 				BE7B1BD61FA2211200B38F74 /* View */,
 				BE7B1BD71FA2211E00B38F74 /* Resources */,
@@ -107,6 +114,16 @@
 				BE7B1BCD1FA21FAF00B38F74 /* Info.plist */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		BEAA4A761FC329A3002A183D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BEAA4A791FC32A4B002A183D /* ColorTools.swift */,
+				BEAA4A7B1FC32A63002A183D /* DebugDuck.swift */,
+				BEAA4A7D1FC32AC2002A183D /* Cleanable.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE7B1BE71FA2240300B38F74 /* InternetController.swift in Sources */,
+				BEAA4A7E1FC32AC2002A183D /* Cleanable.swift in Sources */,
 				BE7B1BE91FA2241300B38F74 /* GlobalController.swift in Sources */,
 				BE7B1BE11FA223C300B38F74 /* AbstractionController.swift in Sources */,
 				BE7B1BE51FA223F300B38F74 /* ProgrammingController.swift in Sources */,
@@ -190,6 +208,8 @@
 				BE7B1BDF1FA2239900B38F74 /* DataController.swift in Sources */,
 				BE7B1BC41FA21FAF00B38F74 /* ViewController.swift in Sources */,
 				BE7B1BC21FA21FAF00B38F74 /* AppDelegate.swift in Sources */,
+				BEAA4A7C1FC32A63002A183D /* DebugDuck.swift in Sources */,
+				BEAA4A7A1FC32A4B002A183D /* ColorTools.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

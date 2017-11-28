@@ -11,9 +11,9 @@ import UIKit
 public class AlgorithmsViewController: UIViewController
 {
    
-    @IBOutlet weak var agorithmText: UITextView!
+    @IBOutlet weak var algorithmText: UITextView!
     
-    private func setupAlgorithms() -> Void
+    private func setupAlgorithm() -> Void
     {
         var algorithmSteps : [String] = []
         
@@ -26,8 +26,8 @@ public class AlgorithmsViewController: UIViewController
         
         algorithmSteps = [stepOne, stepTwo, stepThree, stepFour, stepFive]
         
-        let atribuesDictionary = [NSAttributedString.font : algorithmText.font]
-        let fullAttributeString = NSMutableAttributedString(string: algorithm, attributes: attributesDictionary)
+        let atributesDictionary = [NSAttributedStringKey.font : algorithmText.font]
+        let fullAttributeString = NSMutableAttributedString(string: algorithm, attributes: atributesDictionary)
         
         for step in algorithmSteps
         {
@@ -36,17 +36,17 @@ public class AlgorithmsViewController: UIViewController
             let attributedStringStep : NSMutableAttributedString = NSMutableAttributedString(string: formattedStep)
             let paragraphStyle = createParagraphStyle()
             
-            attributedStringtep.addAttributes([NSAttributedStringKey.paragraphStyle : paragaphStyle], range: NSMakeRange(0, attributedStringStep.length))
+            attributedStringStep.addAttributes([NSAttributedStringKey.paragraphStyle : paragraphStyle], range: NSMakeRange(0, attributedStringStep.length))
             
-            fullAttributedString.append(attributedStringStep)
+            fullAttributeString.append(attributedStringStep)
         }
-        algorithmText.attributedText = fullAttributedString
+        algorithmText.attributedText = fullAttributeString
     }
     
     private func createParagraphStyle() -> NSParagraphStyle
     {
         let paragraphStyle: NSMutableParagraphStyle = NSMutableParagraphStyle()
-        paragraphStyle.allignment = .left
+        paragraphStyle.alignment = .left
         paragraphStyle.defaultTabInterval = 15
         paragraphStyle.firstLineHeadIndent = 20
         paragraphStyle.headIndent = 35

@@ -7,7 +7,8 @@
 //
 
 import Foundation
-pubic protocol Cleanable
+
+public protocol Cleanable
 {
     var cleanState : Bool {get set}
     func clean() -> Void

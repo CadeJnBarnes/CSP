@@ -22,8 +22,8 @@
 		BEAA4A7A1FC32A4B002A183D /* ColorTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAA4A791FC32A4B002A183D /* ColorTools.swift */; };
 		BEAA4A7C1FC32A63002A183D /* DebugDuck.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAA4A7B1FC32A63002A183D /* DebugDuck.swift */; };
 		BEAA4A7E1FC32AC2002A183D /* Cleanable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAA4A7D1FC32AC2002A183D /* Cleanable.swift */; };
-		BECF03FA1FCEFFD5002D0F5A /* InternetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECF03F91FCEFFD5002D0F5A /* InternetDetailViewController.swift */; };
 		BECF03FC1FCEFFF0002D0F5A /* InternetMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECF03FB1FCEFFF0002D0F5A /* InternetMasterViewController.swift */; };
+		BECF04001FCF052B002D0F5A /* InternetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECF03FF1FCF052B002D0F5A /* InternetDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,8 +44,8 @@
 		BEAA4A791FC32A4B002A183D /* ColorTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTools.swift; sourceTree = "<group>"; };
 		BEAA4A7B1FC32A63002A183D /* DebugDuck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugDuck.swift; sourceTree = "<group>"; };
 		BEAA4A7D1FC32AC2002A183D /* Cleanable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cleanable.swift; sourceTree = "<group>"; };
-		BECF03F91FCEFFD5002D0F5A /* InternetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetDetailViewController.swift; sourceTree = "<group>"; };
 		BECF03FB1FCEFFF0002D0F5A /* InternetMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetMasterViewController.swift; sourceTree = "<group>"; };
+		BECF03FF1FCF052B002D0F5A /* InternetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +98,8 @@
 				BE7B1BD81FA2231B00B38F74 /* CreativityViewController.swift */,
 				BE7B1BE41FA223F300B38F74 /* ProgrammingViewController.swift */,
 				BE7B1BE21FA223E100B38F74 /* AlgorithmsViewController.swift */,
-				BECF03F91FCEFFD5002D0F5A /* InternetDetailViewController.swift */,
 				BECF03FB1FCEFFF0002D0F5A /* InternetMasterViewController.swift */,
+				BECF03FF1FCF052B002D0F5A /* InternetDetailViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -207,10 +207,10 @@
 				BE7B1BE71FA2240300B38F74 /* InternetViewController.swift in Sources */,
 				BEAA4A7E1FC32AC2002A183D /* Cleanable.swift in Sources */,
 				BE7B1BE91FA2241300B38F74 /* GlobalViewController.swift in Sources */,
-				BECF03FA1FCEFFD5002D0F5A /* InternetDetailViewController.swift in Sources */,
 				BE7B1BE11FA223C300B38F74 /* AbstractionViewController.swift in Sources */,
 				BECF03FC1FCEFFF0002D0F5A /* InternetMasterViewController.swift in Sources */,
 				BE7B1BE51FA223F300B38F74 /* ProgrammingViewController.swift in Sources */,
+				BECF04001FCF052B002D0F5A /* InternetDetailViewController.swift in Sources */,
 				BE7B1BE31FA223E100B38F74 /* AlgorithmsViewController.swift in Sources */,
 				BE7B1BD91FA2231B00B38F74 /* CreativityViewController.swift in Sources */,
 				BE7B1BDF1FA2239900B38F74 /* DataController.swift in Sources */,

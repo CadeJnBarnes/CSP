@@ -24,6 +24,7 @@
 		BEAA4A7E1FC32AC2002A183D /* Cleanable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAA4A7D1FC32AC2002A183D /* Cleanable.swift */; };
 		BECF03FC1FCEFFF0002D0F5A /* InternetMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECF03FB1FCEFFF0002D0F5A /* InternetMasterViewController.swift */; };
 		BECF04001FCF052B002D0F5A /* InternetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECF03FF1FCF052B002D0F5A /* InternetDetailViewController.swift */; };
+		BECF04031FCF0B2C002D0F5A /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BECF04021FCF0B2C002D0F5A /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		BEAA4A7D1FC32AC2002A183D /* Cleanable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cleanable.swift; sourceTree = "<group>"; };
 		BECF03FB1FCEFFF0002D0F5A /* InternetMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetMasterViewController.swift; sourceTree = "<group>"; };
 		BECF03FF1FCF052B002D0F5A /* InternetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetDetailViewController.swift; sourceTree = "<group>"; };
+		BECF04021FCF0B2C002D0F5A /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BECF04031FCF0B2C002D0F5A /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +67,7 @@
 			children = (
 				BE7B1BC01FA21FAF00B38F74 /* Cade_CSP */,
 				BE7B1BBF1FA21FAF00B38F74 /* Products */,
+				BECF04011FCF0B2C002D0F5A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -130,6 +134,14 @@
 				BEAA4A7D1FC32AC2002A183D /* Cleanable.swift */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		BECF04011FCF0B2C002D0F5A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BECF04021FCF0B2C002D0F5A /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

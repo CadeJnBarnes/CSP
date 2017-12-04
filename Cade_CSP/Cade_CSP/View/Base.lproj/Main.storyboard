@@ -305,7 +305,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lob-Uz-hmz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3760.8000000000002" y="804.64767616191909"/>
+            <point key="canvasLocation" x="3775" y="948"/>
         </scene>
         <!--Root View Controller-->
         <scene sceneID="cLa-qg-hNv">
@@ -323,6 +323,9 @@
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="wru-S1-7G5" kind="showDetail" identifier="showDetail" id="eQP-sw-4FR"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -489,4 +492,7 @@
         <image name="swiftSample" width="1248" height="1244"/>
         <image name="water" width="1555" height="1036"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="eQP-sw-4FR"/>
+    </inferredMetricsTieBreakers>
 </document>

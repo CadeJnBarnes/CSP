@@ -20,10 +20,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
         
         if let splitViewController = window!.rootViewController as? UISplitViewController
         {
-            let navigationController = splitViewController.viewControllers[splitViewController.viewControllercount - 1] as! UINavigationController
+            let navigationController = splitViewController.viewControllers[splitViewController.viewControllers.count - 1] as! UINavigationController
             
             navigationController.topViewController!.navigationItem.leftBarButtonItem = splitViewController.displayModeButtonItem
             splitViewController.delegate = self
+        
+    }
         return true
     }
 
@@ -47,7 +49,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
 
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
-    }
+        }
         
         //MARK: - SplitView Delegate
         
@@ -66,4 +68,5 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
 
 
 }
+
 

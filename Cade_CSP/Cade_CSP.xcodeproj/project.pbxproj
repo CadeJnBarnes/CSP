@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE79D7781FD6F10400BE7EF6 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE79D7771FD6F10400BE7EF6 /* DrawingView.swift */; };
 		BE7B1BC21FA21FAF00B38F74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7B1BC11FA21FAF00B38F74 /* AppDelegate.swift */; };
-		BE7B1BC41FA21FAF00B38F74 /* ViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7B1BC31FA21FAF00B38F74 /* ViewViewController.swift */; };
+		BE7B1BC41FA21FAF00B38F74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7B1BC31FA21FAF00B38F74 /* ViewController.swift */; };
 		BE7B1BC71FA21FAF00B38F74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE7B1BC51FA21FAF00B38F74 /* Main.storyboard */; };
 		BE7B1BC91FA21FAF00B38F74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE7B1BC81FA21FAF00B38F74 /* Assets.xcassets */; };
 		BE7B1BCC1FA21FAF00B38F74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE7B1BCA1FA21FAF00B38F74 /* LaunchScreen.storyboard */; };
@@ -28,9 +29,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BE79D7771FD6F10400BE7EF6 /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
 		BE7B1BBE1FA21FAF00B38F74 /* Cade_CSP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cade_CSP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE7B1BC11FA21FAF00B38F74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BE7B1BC31FA21FAF00B38F74 /* ViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewViewController.swift; sourceTree = "<group>"; };
+		BE7B1BC31FA21FAF00B38F74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BE7B1BC61FA21FAF00B38F74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BE7B1BC81FA21FAF00B38F74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE7B1BCB1FA21FAF00B38F74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -96,7 +98,7 @@
 				BE7B1BC11FA21FAF00B38F74 /* AppDelegate.swift */,
 				BE7B1BDE1FA2239900B38F74 /* DataController.swift */,
 				BE7B1BE61FA2240300B38F74 /* InternetViewController.swift */,
-				BE7B1BC31FA21FAF00B38F74 /* ViewViewController.swift */,
+				BE7B1BC31FA21FAF00B38F74 /* ViewController.swift */,
 				BE7B1BE81FA2241300B38F74 /* GlobalViewController.swift */,
 				BE7B1BE01FA223C300B38F74 /* AbstractionViewController.swift */,
 				BE7B1BD81FA2231B00B38F74 /* CreativityViewController.swift */,
@@ -113,6 +115,7 @@
 			children = (
 				BE7B1BC51FA21FAF00B38F74 /* Main.storyboard */,
 				BE7B1BCA1FA21FAF00B38F74 /* LaunchScreen.storyboard */,
+				BE79D7771FD6F10400BE7EF6 /* DrawingView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -226,8 +229,9 @@
 				BE7B1BE31FA223E100B38F74 /* AlgorithmsViewController.swift in Sources */,
 				BE7B1BD91FA2231B00B38F74 /* CreativityViewController.swift in Sources */,
 				BE7B1BDF1FA2239900B38F74 /* DataController.swift in Sources */,
-				BE7B1BC41FA21FAF00B38F74 /* ViewViewController.swift in Sources */,
+				BE7B1BC41FA21FAF00B38F74 /* ViewController.swift in Sources */,
 				BE7B1BC21FA21FAF00B38F74 /* AppDelegate.swift in Sources */,
+				BE79D7781FD6F10400BE7EF6 /* DrawingView.swift in Sources */,
 				BEAA4A7C1FC32A63002A183D /* DebugDuck.swift in Sources */,
 				BEAA4A7A1FC32A4B002A183D /* ColorTools.swift in Sources */,
 			);
@@ -367,7 +371,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Cade_CSP/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Cade_CSP/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "CTEC.CadeBarnes-CSP";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -381,7 +385,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Cade_CSP/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Cade_CSP/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "CTEC.CadeBarnes-CSP";
 				PRODUCT_NAME = "$(TARGET_NAME)";

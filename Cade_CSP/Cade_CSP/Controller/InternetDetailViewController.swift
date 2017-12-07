@@ -18,7 +18,7 @@ public class InternetDetailViewController: UIViewController
     {
         
     }
-
+    
     var detailAddress : String?
     {
         didSet
@@ -39,7 +39,7 @@ public class InternetDetailViewController: UIViewController
         super.viewDidLoad()
         configureDetailView()
     }
-
+    
     private func configureDetailView() -> Void
     {
         if detailAddress != nil
@@ -59,18 +59,20 @@ public class InternetDetailViewController: UIViewController
                 currentWebView.load(URLRequest(url:currentURL!))
             }
         }
-       if detailText != nil
-       {
-        if let currentText = textView
+        if detailText != nil
         {
-            currentText.text = detailText
+            if let currentText = textView
+            {
+                currentText.text = detailText
+            }
         }
-    }
         else
-       {
-        if let currentText = textView
         {
-            currentText.text = "Cade's CSP app internet screen"
+            if let currentText = textView
+            {
+                currentText.text = "Cade's CSP app internet screen"
+            }
         }
-    
+        
+    }
 }

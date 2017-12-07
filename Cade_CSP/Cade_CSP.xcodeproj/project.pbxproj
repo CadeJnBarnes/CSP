@@ -20,6 +20,7 @@
 		BE7B1BE51FA223F300B38F74 /* ProgrammingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7B1BE41FA223F300B38F74 /* ProgrammingViewController.swift */; };
 		BE7B1BE71FA2240300B38F74 /* InternetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7B1BE61FA2240300B38F74 /* InternetViewController.swift */; };
 		BE7B1BE91FA2241300B38F74 /* GlobalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7B1BE81FA2241300B38F74 /* GlobalViewController.swift */; };
+		BE9D77191FD99CB6002C5446 /* ArtCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9D77181FD99CB6002C5446 /* ArtCell.swift */; };
 		BEAA4A7A1FC32A4B002A183D /* ColorTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAA4A791FC32A4B002A183D /* ColorTools.swift */; };
 		BEAA4A7C1FC32A63002A183D /* DebugDuck.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAA4A7B1FC32A63002A183D /* DebugDuck.swift */; };
 		BEAA4A7E1FC32AC2002A183D /* Cleanable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAA4A7D1FC32AC2002A183D /* Cleanable.swift */; };
@@ -44,6 +45,7 @@
 		BE7B1BE41FA223F300B38F74 /* ProgrammingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammingViewController.swift; sourceTree = "<group>"; };
 		BE7B1BE61FA2240300B38F74 /* InternetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetViewController.swift; sourceTree = "<group>"; };
 		BE7B1BE81FA2241300B38F74 /* GlobalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalViewController.swift; sourceTree = "<group>"; };
+		BE9D77181FD99CB6002C5446 /* ArtCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCell.swift; sourceTree = "<group>"; };
 		BEAA4A791FC32A4B002A183D /* ColorTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTools.swift; sourceTree = "<group>"; };
 		BEAA4A7B1FC32A63002A183D /* DebugDuck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugDuck.swift; sourceTree = "<group>"; };
 		BEAA4A7D1FC32AC2002A183D /* Cleanable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cleanable.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				BE7B1BE21FA223E100B38F74 /* AlgorithmsViewController.swift */,
 				BECF03FB1FCEFFF0002D0F5A /* InternetMasterViewController.swift */,
 				BECF03FF1FCF052B002D0F5A /* InternetDetailViewController.swift */,
+				BE9D77181FD99CB6002C5446 /* ArtCell.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -234,6 +237,7 @@
 				BE79D7781FD6F10400BE7EF6 /* DrawingView.swift in Sources */,
 				BEAA4A7C1FC32A63002A183D /* DebugDuck.swift in Sources */,
 				BEAA4A7A1FC32A4B002A183D /* ColorTools.swift in Sources */,
+				BE9D77191FD99CB6002C5446 /* ArtCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

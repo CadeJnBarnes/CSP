@@ -86,7 +86,7 @@ public class DrawingView: UIView
     
     private func drawWithFriend() -> Void
     {
-        
+        UIColor.green.setFill()
         
         
     }

@@ -14,7 +14,7 @@ public class DrawingView: UIView
     override public func draw(_ rect: CGRect)
     {
         drawStickFigure().stroke()
- //       drawTurtle()
+        drawTurtle()
         drawHappyTree()
     }
     
@@ -76,11 +76,18 @@ public class DrawingView: UIView
     private func drawTurtle() -> Void
     {
         let logo = UIBezierPath()
-        UIColor.white.setFill()
+        UIColor.black.setFill()
         logo.move(to: CGPoint(x: 50, y: 250))
         logo.addLine(to: CGPoint(x: 100, y:300))
         logo.addLine(to: CGPoint(x: 50, y:350))
         logo.close()
         logo.fill()
+    }
+    
+    private func drawWithFriend() -> Void
+    {
+        
+        
+        
     }
 }
